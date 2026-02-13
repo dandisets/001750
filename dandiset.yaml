@@ -11,22 +11,40 @@ access:
 - schemaKey: AccessRequirements
   status: dandi:OpenAccess
 assetsSummary:
-  numberOfBytes: 0
-  numberOfFiles: 0
+  approach:
+  - name: electrophysiological approach
+    schemaKey: ApproachType
+  dataStandard:
+  - identifier: RRID:SCR_015242
+    name: Neurodata Without Borders (NWB)
+    schemaKey: StandardsType
+  measurementTechnique:
+  - name: voltage clamp technique
+    schemaKey: MeasurementTechniqueType
+  numberOfBytes: 332531856
+  numberOfFiles: 35
+  numberOfSubjects: 1
   schemaKey: AssetsSummary
-citation: Jing, Junzhan (2026) Elecophysioloical Dataset of Somatic Sodium Channel
-  Current Using Outside-out Recording in the Primate Anterior Insular Cortex (Version
-  draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001750/draft
+  species:
+  - identifier: http://purl.obolibrary.org/obo/NCBITaxon_9541
+    name: Macaca fascicularis - Cynomolgus monkeys
+    schemaKey: SpeciesType
+  variableMeasured:
+  - VoltageClampSeries
+  - VoltageClampStimulusSeries
+citation: Jing, Junzhan; Liu, Rui-Feng (2026) Electrophysiological Dataset of Somatic
+  Sodium Channel Current Using Outside-out Recording in the Primate Anterior Insular
+  Cortex (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001750/draft
 contributor:
 - affiliation: []
-  email: jingjunzhan@gmail.com
+  email: junzhan.jing@bcm.edu
   includeInCitation: true
   name: Jing, Junzhan
-  roleName:
-  - dcite:ContactPerson
+  roleName: []
   schemaKey: Person
 - email: rfengliu@gmail.com
   identifier: 0000-0002-3319-9939
+  includeInCitation: true
   name: Liu, Rui-Feng
   roleName:
   - dcite:Author
@@ -39,11 +57,37 @@ contributor:
   - dcite:FundingAcquisition
   - dcite:Researcher
   - dcite:Software
+  - dcite:ContactPerson
   schemaKey: Person
+- awardNumber: R01MH122169, R01MH120404
+  name: 'National Institute of Mental Health '
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 82425016, 82371095, 81961128021, 82301254
+  name: Natural Science Foundation of China
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 2022YEF0203200
+  name: National Key R&D Program of China
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 2021ZD0200100
+  name: National Science and Technology Innovation 2030 Major Program of China
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
+- awardNumber: 2023B0303020002
+  name: The Key Science and Technology Project of Guangdong Province, China
+  roleName:
+  - dcite:Funder
+  schemaKey: Organization
 dateCreated: '2026-02-13T05:35:43.587320+00:00'
-description: The dataset contains the intracellular recordings from Macaque Anterior
-  Insular Cortex neurons. We used outside-out patch-clamp recording to collecte the
-  sodium channel current of anterior insular cortex neurons in crab-eating monkeys.
+description: This dataset includes intracellular recordings from neurons in the anterior
+  insular cortex of macaque monkeys. Somatic sodium channel currents were recorded
+  using the outside-out patch-clamp configuration in neurons from crab-eating monkeys.
 ethicsApproval: []
 id: DANDI:001750/draft
 identifier: DANDI:001750
@@ -55,7 +99,7 @@ license:
 - spdx:CC-BY-4.0
 manifestLocation:
 - https://api.dandiarchive.org/api/dandisets/001750/versions/draft/assets/
-name: Elecophysioloical Dataset of Somatic Sodium Channel Current Using Outside-out
+name: Electrophysiological Dataset of Somatic Sodium Channel Current Using Outside-out
   Recording in the Primate Anterior Insular Cortex
 relatedResource:
 - name: Cell Atlas and Novel Signal Processing Strategy in Primate Insular Cortex
@@ -73,8 +117,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-studyTarget:
-- 'To investigate the differnce of sodium channel currents between VENs and PCs '
 url: https://dandiarchive.org/dandiset/001750/draft
 version: draft
 wasGeneratedBy: []
