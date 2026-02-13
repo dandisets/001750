@@ -59,8 +59,17 @@ name: Elecophysioloical Dataset of Somatic Sodium Channel Current Using Outside-
   Recording in the Primate Anterior Insular Cortex
 relatedResource:
 - name: Cell Atlas and Novel Signal Processing Strategy in Primate Insular Cortex
-  relation: dcite:IsSourceOf
+  relation: dcite:IsDescribedBy
+  resourceType: dcite:PeerReview
   schemaKey: Resource
+- name: 'Github: Cell Atlas and Novel Signal Processing Strategy in Primate Insular
+    Cortex'
+  relation: dcite:IsSourceOf
+  repository: 'Github: Cell Atlas and Novel Signal Processing Strategy in Primate
+    Insular Cortex'
+  resourceType: dcite:Software
+  schemaKey: Resource
+  url: https://github.com/RFLiu2021/AIC_proj
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
