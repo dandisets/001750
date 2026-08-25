@@ -102,11 +102,14 @@ manifestLocation:
 name: Electrophysiological Dataset of Somatic Sodium Channel Current Using Outside-out
   Recording in the Primate Anterior Insular Cortex
 relatedResource:
-- name: Cell Atlas and Novel Signal Processing Strategy in Primate Insular Cortex
+- identifier: v1
+  name: Cell Atlas and Novel Signal Processing Strategy in Primate Insular Cortex
   relation: dcite:IsDescribedBy
   resourceType: dcite:PeerReview
   schemaKey: Resource
-- name: 'Github: Cell Atlas and Novel Signal Processing Strategy in Primate Insular
+  url: https://doi.org/10.1038/s41556-026-02009-4
+- identifier: v1
+  name: 'Github: Cell Atlas and Novel Signal Processing Strategy in Primate Insular
     Cortex'
   relation: dcite:IsSourceOf
   repository: 'Github: Cell Atlas and Novel Signal Processing Strategy in Primate
