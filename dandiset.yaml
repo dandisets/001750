@@ -34,7 +34,7 @@ assetsSummary:
   - VoltageClampStimulusSeries
 citation: Jing, Junzhan; Liu, Rui-Feng (2026) Electrophysiological Dataset of Somatic
   Sodium Channel Current Using Outside-out Recording in the Primate Anterior Insular
-  Cortex (Version draft) [Data set]. DANDI Archive. https://dandiarchive.org/dandiset/001750/draft
+  Cortex (Version 0.260825.0222) [Data set]. DANDI Archive. https://doi.org/10.48324/dandi.001750/0.260825.0222
 contributor:
 - affiliation: []
   email: junzhan.jing@bcm.edu
@@ -85,11 +85,13 @@ contributor:
   - dcite:Funder
   schemaKey: Organization
 dateCreated: '2026-02-13T05:35:43.587320+00:00'
+datePublished: '2026-08-25T02:22:49.845647+00:00'
 description: This dataset includes intracellular recordings from neurons in the anterior
   insular cortex of macaque monkeys. Somatic sodium channel currents were recorded
   using the outside-out patch-clamp configuration in neurons from crab-eating monkeys.
+doi: 10.48324/dandi.001750/0.260825.0222
 ethicsApproval: []
-id: DANDI:001750/draft
+id: DANDI:001750/0.260825.0222
 identifier: DANDI:001750
 keywords:
 - Sodium channel
@@ -98,9 +100,21 @@ keywords:
 license:
 - spdx:CC-BY-4.0
 manifestLocation:
-- https://api.dandiarchive.org/api/dandisets/001750/versions/draft/assets/
+- https://dandiarchive.s3.amazonaws.com/dandisets/001750/0.260825.0222/assets.yaml
 name: Electrophysiological Dataset of Somatic Sodium Channel Current Using Outside-out
   Recording in the Primate Anterior Insular Cortex
+publishedBy:
+  endDate: '2026-08-25T02:22:49.845647+00:00'
+  id: urn:uuid:e664af15-10c7-4159-9791-918ceb489003
+  name: DANDI publish
+  schemaKey: PublishActivity
+  startDate: '2026-08-25T02:22:49.845647+00:00'
+  wasAssociatedWith:
+  - id: urn:uuid:1f6393e1-42ca-4513-bbc0-fcde5d70b555
+    identifier: RRID:SCR_017571
+    name: DANDI API
+    schemaKey: Software
+    version: 0.1.0
 relatedResource:
 - identifier: v1
   name: Cell Atlas and Novel Signal Processing Strategy in Primate Insular Cortex
@@ -120,6 +134,6 @@ relatedResource:
 repository: https://dandiarchive.org
 schemaKey: Dandiset
 schemaVersion: 0.7.0
-url: https://dandiarchive.org/dandiset/001750/draft
-version: draft
+url: https://dandiarchive.org/dandiset/001750/0.260825.0222
+version: 0.260825.0222
 wasGeneratedBy: []
